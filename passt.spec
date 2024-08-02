@@ -1,13 +1,13 @@
-%define		gitref	1ee2eca
+%define		gitref	57a21d2
 
 Summary:	User-mode networking for virtual machines and namespaces
 Name:		passt
-Version:	2024_06_24
+Version:	2024_07_26
 Release:	1
 License:	GPL v2+, BSD
 Group:		Applications/System
 Source0:	https://passt.top/passt/snapshot/%{name}-%{version}.%{gitref}.tar.xz
-# Source0-md5:	fa8c31106f7c2b2622a439587ac7f266
+# Source0-md5:	63cbaf36361971adfa111d513e27480c
 URL:		https://passt.top/
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
