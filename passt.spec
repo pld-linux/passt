@@ -1,13 +1,13 @@
-%define		gitref	038c51e
+%define		gitref	df90211
 
 Summary:	User-mode networking for virtual machines and namespaces
 Name:		passt
-Version:	2026_05_26
+Version:	2026_09_25
 Release:	1
 License:	GPL v2+, BSD
 Group:		Applications/System
 Source0:	https://passt.top/passt/snapshot/%{name}-%{version}.%{gitref}.tar.xz
-# Source0-md5:	86536076a7ac4352422e04242710e248
+# Source0-md5:	1ff200359fb07972decaa20aec4e1efe
 URL:		https://passt.top/
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
@@ -49,9 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/passt-repair
 %attr(755,root,root) %{_bindir}/pasta
 %attr(755,root,root) %{_bindir}/pesto
-%attr(755,root,root) %{_bindir}/qrap
 %{_mandir}/man1/passt.1*
 %{_mandir}/man1/passt-repair.1*
 %{_mandir}/man1/pasta.1*
 %{_mandir}/man1/pesto.1*
-%{_mandir}/man1/qrap.1*
